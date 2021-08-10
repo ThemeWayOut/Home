@@ -16,40 +16,207 @@ body {
 
 <p><p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
 
-  <head>
-	    <meta charset="UTF-8">
-<title>ClearVision</title>
-<meta name="description" content="ClearVision is an automatically updating, easily customizable theme for Discord.">
-<meta name="author" content="Zerthox">
-<meta name="viewport" content="initial-scale=1, minimum-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/main.css">
+<body>
+	    <div class="site-body">
+			<div class="container">
+				<div class="side-bar">
+    <div class="header">ClearVision</div>
+    <div class="category">
+        <div class="item" switch-ref="home" switch-selected="">Home</div>
+        <div class="item" switch-ref="v5">v5</div>
+        <div class="item" switch-ref="v6">v6</div>
+    </div>
+    <div class="header">Wiki</div>
+    <div class="category">
+        <div class="item" switch-ref="installation">Installation</div>
+    </div>
+    <div class="header">Credits</div>
+    <div class="category">
+        <div class="item" switch-ref="images">Images</div>
+        <div class="item" switch-ref="icons">Icons</div>
+    </div>
+</div>
+<div class="scroller">
+    <div class="content" switch-root="home">
+        <div switch-page="home" switch-visible="">
+            <div class="title">ClearVision</div>
+            <p>
+                ClearVision is an automatically updating, easily customizable theme for Discord.
+            </p>
+            <p>
+                ClearVision is built for use with <a href="https://betterdiscord.net">BetterDiscord</a>.
+            </p>
+            <p>
+                For update notifications and theme support, join the <a href="/join">ClearVision Discord server</a>.
+            </p>
+        </div>
+        <div switch-page="v5">
+            <div class="title">ClearVision v5</div>
+            <p>
+                This version has been discontinued.
+            </p>
+            <p>
+                Thank you to <a href="https://github.com/OmgDani">Danielle</a> for maintaining it.
+            </p>
+        </div>
+        <div switch-page="v6">
+            <div class="title">ClearVision v6</div>
+            <p>
+                ClearVision v6 is the current public version of the theme.
+            </p>
+            <p>
+                The ClearVision v6 repository is available here: <a href="https://github.com/ClearVision/ClearVision-v6">ClearVision/v6</a>.
+                Make sure to join the <a href="/join">ClearVision Discord server</a> for updates about the development process.
+            </p>
+            <p>
+                Currently, v6 is in public beta and available to download: <a href="/download/v6/latest">latest v6 release</a>
+            </p>
+        </div>
+        <div switch-page="installation">
+            <div class="title">Installation Instructions</div>
+            <div class="header">1. Installing BandagedBetterDiscord</div>
+            <p>
+                You can download BandagedBD from <a href="https://betterdiscord.net">betterdiscord.net</a>.
+            </p>
+            <p>
+                If you have any questions regarding the BandagedBD Installation or BetterDiscord in general, check <a href="https://0x71.cc/bd/guide">0x71.cc</a> for user guides or join one of the two BetterDiscord Discord servers: <a href="https://discord.gg/0Tmfo5ZbORCRqbAd" target="_blank">BetterDiscord</a>, <a href="https://discord.gg/2HScm8j" target="_blank">BetterDiscord2</a>.
+            </p>
+            <div class="header">2. Downloading the theme</div>
+            <p>
+                Got to the <a href="https://github.com/ClearVision/ClearVision-v6/releases">Latest GitHub release</a> and download the theme of your choosing.
+            </p>
+            <div class="header">3. Installing the theme</div>
+            <p>
+                    Move the theme file to your BetterDiscord theme folder:
+            </p>
+            <div class="codeblock"><b>Windows:</b> %appdata%\BetterDiscord\themes\
+                <b>Mac:</b> ~/Library/Preferences/BetterDiscord/themes
+            </div>
+            <p>
+                If you have no idea how to open the according directory:
+            </p>
+            <div class="list ordered">
+                <div>Open Discord</div>
+                <div>Open your User Settings</div>
+                <div>Go to the BetterDiscord tab</div>
+                <div>Go to the Themes tab</div>
+                <div>Click on the <code class="inline">Open Theme Folder</code> button</div>
+            </div>
+            <div class="header">4. Enabling the theme</div>
+            <p>
+                Make sure the theme file is placed in the correct folder and the file extension is <code class="inline">.theme.css</code><br>
+                <i>(If you don't have "Show file extensions" enabled it will only show <code class="inline">.theme</code>!)</i>
+            </p>
+            <p>
+                Head back to the themes tab and check the checkbox next to the Theme you just installed!
+            </p>
+        </div>
+        <div switch-page="images">
+            <div class="title">Image Credits</div>
+            <p>
+                The Background Images used in the ClearVision themes are from external sources, however they are hosted on the ClearVision repository to provide more control and better accessability.
+            </p>
+            <p>
+                If you are the Copyright owner of one of the images and would like your image to be taken down, please submit an <a href="https://github.com/Zerthox/ClearVision/issues/new">Issue</a>.
+            </p>
+            <p>
+                All rights go to their respective owners.
+            </p>
+            <div class="header">Sources</div>
+            <p>
+                <b>Amber:</b> <a href="https://www.deviantart.com/chromamancer/art/War-March-201045286">War March</a> by <a href="https://www.deviantart.com/chromamancer">Chromamancer</a>
+            </p>
+            <p>
+                <b>Amethyst:</b> <a href="https://wallpapersafari.com/w/TOwPb7">Fantasy Moon Wallpaper</a> by Unkown
+            </p>
+            <p>
+                <b>Emerald:</b> <a href="http://www.kekaiart.com/guild-wars-2.html">Guild Wars 2 Denravi Concept Art</a> by <a href="http://www.kekaiart.com">Kekai Kotaki</a>
+            </p>
+            <p>
+                <b>Ruby:</b> <a href="https://wall.alphacoders.com/big.php?i=274027">Warrior Wallpaper</a> by Unkown
+            </p>
+            <p>
+                <b>Sapphire:</b> <a href="https://www.deviantart.com/kuldarleement/art/Stellar-collision-397866757">Stellar Collision</a> by <a href="http://kuldarleement.eu">Kuldar Leement</a>
+            </p>
+            <p>
+                <b>Halloween:</b> <a href="https://wall.alphacoders.com/big.php?i=552086">Halloween Wallpaper</a> by Unknown
+            </p>
+            <p>
+                <b>Winter:</b> <a href="https://wall.alphacoders.com/big.php?i=114938">Christmas Wallpaper</a> by Unknown
+            </p>
+        </div>
+        <div switch-page="icons">
+            <div class="title">Icon Credits</div>
+            <p>
+                Most of the Icons used in the ClearVision themes are from external sources, however they are hosted on the ClearVision repository to provide more control and better accessability.
+            </p>
+            <p>
+                If you are the Copyright owner of one of the icons and would like your icon to be taken down, please submit an <a href="https://github.com/ClearVision/ClearVision-v6/issues/new">Issue</a>.
+            </p>
+            <p>
+                All rights go to their respective owners.
+            </p>
+            <div class="header">Google Material Icons</div>
+            <p>
+                Many of the the icons are from Material icons from Google's Material Design.  
+                They provide high quality Material Design icons with different styles for each icon and are arguably one of the best sources for Material Design icons.
+            </p>
+            <div>
+                <b>Website:</b> <a href="https://material.io/tools/icons">Google Material Icons</a>
+            </div>
+            <div>
+                <b>Github:</b> <a href="https://github.com/google/material-design-icons">google/material-design-icons</a>
+            </div>
+            <div>
+                <b>License:</b> <a href="https://github.com/google/material-design-icons/blob/master/LICENSE">Apache License 2.0</a>
+            </div>
+            <div class="header">Material Design Icons</div>
+            <p>
+                Material Design Icons is a huge collection of Material Design icons.  
+                It contains icons made by Google, Austin Andrews, 14 other contributors and community submissions.  
+                It is a great resource for icons and icon ideas you would not find otherwise.  
+                Allowing to download as SVG, Vector Drawable, PNG or Webfont you can use their icons on every platform.
+            </p>
+            <div>
+                <b>Website:</b> <a href="https://materialdesignicons.com">Material Design Icons</a>
+            </div>
+            <div>
+                <b>Github:</b> <a href="https://github.com/Templarian/MaterialDesign">Templarian/MaterialDesign</a>
+            </div>
+            <div>
+                <b>License:</b> <a href="https://github.com/Templarian/MaterialDesign/blob/master/LICENSE">SIL Open Font License 1.1</a>
+            </div>
+        </div>
+    </div>
+</div>
+			</div>
+			<noscript>
+				<div class="warning">
+					<div class="title">This page requires JavaScript to work properly</div>
+					<div class="text">
+						Please enable JavaScript. We won't do anything bad, we promise.<br>
+						If you don't trust us, check the <a href="https://github.com/Zerthox/ClearVision">source code</a>.
+					</div>
+				</div>
+				<style>
+					.container {
+						display: none !important;
+					}
+				</style>
+			</noscript>
+		</div>
+	    <div class="site-footer">
+	<div class="left">
+		<span>By <a href="https://github.com/Zerthox">Zerthox</a> &amp; <a href="https://github.com/ClearVision">ClearVision</a> Team</span>
+	</div>
+	<div class="right">
+		<a href="/join">Discord</a>
+		<a href="https://github.com/ClearVision/ClearVision-v6">GitHub</a>
+		<a href="https://gitlab.com/ClearVision">GitLab</a>
+	</div>
+</div>
+	
+</body>
 
-<script type="text/javascript" src="/js/switch.js"></script><style id="switchjs-style">
-    [switch-root] {
-        position: relative;
-    }
-    [switch-page] {
-        position: absolute;
-        opacity: 0;
-        -webkit-transition: opacity .3s ease-in-out;
-        -moz-transition: opacity .3s ease-in-out;
-        -ms-transition: opacity .3s ease-in-out;
-        -o-transition: opacity .3s ease-in-out;
-        transition: opacity .3s ease-in-out;
-    }
-    [switch-page][switch-visible] {
-        opacity: 1;
-    }
-    [switch-page]:not([switch-visible]) {
-        pointer-events: none;
-    }
-    [switch-ref] {
-        cursor: pointer;
-    }</style>
-
-	</head>
-  
 </body>
 </html>
